@@ -16,7 +16,7 @@ Install from the Cursor Marketplace, or add this to your Cursor MCP settings:
 }
 ```
 
-No API key or configuration is needed.
+No API key or configuration is needed. Signing in is optional and only adds `my_sessions` and `my_vehicles`.
 
 ## Tools
 
@@ -26,6 +26,8 @@ No API key or configuration is needed.
 - `reserve`: Hold a space for a few minutes; the driver pays on parkgraph.com
 - `get_session`: Check a parking session
 - `extend_session`: Add time to an active hourly session
+- `my_sessions`: The signed-in driver's sessions (optional OAuth sign-in)
+- `my_vehicles`: The signed-in driver's saved vehicles (optional OAuth sign-in)
 
 ## Example prompts
 
